@@ -4,6 +4,7 @@
 1. Clone
 ```
 git clone https://github.com/Gerardy01/be-assignment-test.git
+
 cd be-assignment-test
 ```
 
@@ -13,6 +14,7 @@ python -m venv ./venv
 ```
 
 3. Activate virtual environment
+
 Windows
 ```
 venv\Scripts\activate
@@ -52,6 +54,7 @@ Access admin page `/admin` to add new inventory and supplier.
 
 ## API Endpoint
 1. GET /api/v1/inventory
+
 Retrieves a list of inventory items. You can filter by query parameters provided below
 ```
 - name : <str>
